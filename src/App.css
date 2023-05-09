@@ -5,4 +5,18 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.container {
+  border: 2px solid rgb(210, 210, 210);
+  box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px 8px 12px 16px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  &:hover {
+    box-shadow: 2px 3px 8px 0px rgb(128, 127, 127);
+  }
+}
 /* write your parent styles in here for your App.js */
